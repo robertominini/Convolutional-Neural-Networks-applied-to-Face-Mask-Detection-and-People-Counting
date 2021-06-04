@@ -30,7 +30,7 @@ It should look like this:
 
 ![image](https://user-images.githubusercontent.com/60971557/120809336-3b6a3500-c54a-11eb-9f1f-2914ac30344a.png)
 
-## How to see how the models work with a webcam
+## How make live predictions with a webcam
 
 Just open detect_webcam, connect a webcam to your computer and run the code.
 
