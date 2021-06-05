@@ -6,7 +6,7 @@ In this repository, you can find three different CNNs which can carry out live d
 
 Downloading the code won't be enought to make the program work. Follow the following steps in order to be able to run the code.
 
-#STEP 1: The YOLO model weights file is too heavy to upload on GitHub. Please go to https://pjreddie.com/darknet/yolo/ and head to the following section of the site:
+STEP 1: The YOLO model weights file is too heavy to upload on GitHub. Please go to https://pjreddie.com/darknet/yolo/ and head to the following section of the site:
 
 ![image](https://user-images.githubusercontent.com/60971557/120808211-2345e600-c549-11eb-8106-43a211937d60.png)
 
@@ -15,7 +15,7 @@ Download the weights for the YOLOv3 tiny version. To do this, just click on the 
 After doing this put the file in the yolov3 folder. The result should look like this:
 ![image](https://user-images.githubusercontent.com/60971557/120808781-b121d100-c549-11eb-8927-b040c6405e4f.png)
 
-#STEP 2: if you want to train the algorithm using train_mask_detector.py and the datasets used in the thesis, you will need to insert the datasets mnaully, since they were too heavy to upload on GitHub. If you just want to check the already trained algorithm, you don't need to do this step.
+STEP 2: if you want to train the algorithm using train_mask_detector.py and the datasets used in the thesis, you will need to insert the datasets mnaully, since they were too heavy to upload on GitHub. If you just want to check the already trained algorithm, you don't need to do this step.
 
 Small dataset: https://www.kaggle.com/prithwirajmitra/covid-face-mask-detection-dataset
 Expanded dataset: use both the pictures from the small dataset and the ones from the Face Mask Detection ~12K Images Dataset( https://www.kaggle.com/ashishjangra27/face-mask-12k-images-dataset)
