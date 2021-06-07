@@ -110,8 +110,8 @@ classes = None
 with open('yolov3/coco.names', 'r') as f:
     classes = [line.strip() for line in f.readlines()]
 
-yolov3_weights_PATH = r"yolov3\yolov3.weights"
-yolov3_cfg_PATH = r"yolov3\yolov3.cfg"
+yolov3_weights_PATH = r"yolov3\yolov3-tiny.weights"
+yolov3_cfg_PATH = r"yolov3\yolov3-tiny.cfg"
 net = cv2.dnn.readNet(yolov3_weights_PATH, yolov3_cfg_PATH)
     
 
